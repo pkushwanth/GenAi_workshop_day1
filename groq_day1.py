@@ -3,7 +3,7 @@ from groq import Groq
 
 st.set_page_config("kushwanthAI Content Generator", layout="wide")
 st.title(" KushwanthAI – Content Generator")
-st.image("", caption="kushwanthAI", use_container_width=True)
+st.image("Screenshot 2026-01-20 152930.png", caption="kushwanthAI", use_container_width=True)
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
 col1, col2 = st.columns(2)
